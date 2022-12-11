@@ -67,7 +67,7 @@ describe('Users Posts', () => {
     }); 
 
     describe('Negative Tests', () => {
-        it.only("401 Authentication failed", async () => {   // Running the API test without sending token
+        it("401 Authentication failed", async () => {   // Running the API test without sending token
             const data = {
                 "user_id": userId,
                 "title": "Equity",

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 5000",
-    "test-html": "mocha --timeout 5000 -- --reporter mochawesome"
+    "test-html": "mocha --timeout 5000 -- --reporter mochawesome",
+    "test-html": "mocha --timeout 5000 -- --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "supertest": "^6.3.2"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "mocha-junit-reporter": "^2.2.0"
   }
 }
