@@ -5,7 +5,7 @@ import { expect } from "chai";
 
 const TOKEN = 'ed22240579e550bb16f6f67329f9de6cf40a4387c1974ecf2076afc8a9549c87';
 
-describe.only('Users', ()=>{
+describe('Users', ()=>{
     let userId;
     describe('POST', ()=>{
         it("/users", () => { 

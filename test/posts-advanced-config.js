@@ -12,7 +12,7 @@ import { createRandomUser } from "../helper/user_helper";
 // const TOKEN = 'ed22240579e550bb16f6f67329f9de6cf40a4387c1974ecf2076afc8a9549c87'; // As we are taking token from .env file
 const TOKEN = process.env.USER_TOKEN;
 
-describe('Users Posts', () => {
+describe.only('Users Posts', () => {
 
     let postId, userId;
     /*
