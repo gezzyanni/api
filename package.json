@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --timeout 5000",
     "test-html": "mocha --timeout 5000 -- --reporter mochawesome",
-    "test-html": "mocha --timeout 5000 -- --reporter mocha-junit-reporter"
+    "test-junit": "mocha --timeout 5000 -- --reporter mocha-junit-reporter"
   },
   "keywords": [],
   "author": "",
