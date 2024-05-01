@@ -2,7 +2,7 @@ import supertest from "supertest";
 const request = supertest('https://gorest.co.in/public/v2/');
 //const { faker } = require('@faker-js/faker');
 
-const TOKEN = 'ed22240579e550bb16f6f67329f9de6cf40a4387c1974ecf2076afc8a9549c87';
+const TOKEN = '0506591d43f092fdeb15d66e38869a5d178830f87e7ae33f07911c5d4095af4b';
 
 export const createRandomUser = async () => {
 
