@@ -1,4 +1,4 @@
-# JavaScript-API-Automation-Tests
+# API Automation Tests
 
 ## To start
 - Clone the repository locally
